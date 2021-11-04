@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#promo {
+  padding: 40px !important;
+  background: url("../../assets/img/background.jpg");
+  background-size: cover;
+}
+
+.round-3 {
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.35) !important;
+  padding: 10px !important;
+  margin-top: 50px;
+}
+
+@media (min-width: 300px) {
+  .round-3 {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #promo {
+    padding: 10px !important;
+  }
+}
+
+.site-section {
+  text-align: center;
+  padding: 20px;
+}
+
+#welcome h1 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#why h1 {
+  margin-bottom: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.fa.fa-birthday-cake {
+  font-size: 42px;
+  color: #e23c86;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-weight: normal !important;
+  line-height: 1.2;
+}
+
+.list-text {
+  font-size: 21px;
+  font-weight: 100 !important;
+}
+
+.fa.fa-heart {
+  font-size: 42px;
+  color: #e23c86;
+}
+
+.fa.fa-shopping-basket {
+  font-size: 42px;
+  color: #e23c86;
+}
+
+#why {
+  margin-top: 30px;
+}
+
+.col-md-4 {
+  margin-bottom: 10px;
+}
+
+.dark-side {
+  background-color: rgb(228,238,241);
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 5px;
+  margin-top: -4px;
+  display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #343a40;
+  background-color: yellow;
+  border-color: transparent;
+}
+
+#gallery h1 {
+  margin-bottom: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
